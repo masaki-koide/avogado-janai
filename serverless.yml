@@ -35,6 +35,6 @@ plugins:
 functions:
   favoriteAvogadoTweet:
     handler: handler.favorite_avogado_tweet
-    timeout: 10
+    timeout: 30
     events:
       - schedule: rate(1 hour)
